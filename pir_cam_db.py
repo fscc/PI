@@ -7,7 +7,7 @@ import picamera
 def insertdb (type, date):
 	db = MySQLdb.connect(host="localhost", # your host, usually localhost
                      user="root", # your username
-                     passwd="heroinas", # your password
+                     passwd="****", # your password
                      db="raspberry") # name of the data base
 	with db:
 # you must create a Cursor object. It will let
